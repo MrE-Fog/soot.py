@@ -1,0 +1,78 @@
+public class Yay extends java.lang.Object
+{
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] l0;
+        int a, b, c, $i0, d;
+
+        l0 := @parameter0: java.lang.String[];
+
+        a = 0;
+
+        b = 2;
+
+        c = 3;
+
+        if a == b goto label1;
+
+        goto label8;
+
+     label1:
+        nop;
+
+        $i0 = c + 1;
+
+        c = $i0;
+
+        if c == a goto label2;
+
+        goto label6;
+
+     label2:
+        nop;
+
+        a = 5;
+
+        b = 3;
+
+        if c == b goto label3;
+
+        goto label4;
+
+     label3:
+        nop;
+
+        c = 0;
+
+        a = 0;
+
+        d = 0;
+
+        goto label5;
+
+     label4:
+        nop;
+
+     label5:
+        nop;
+
+        goto label7;
+
+     label6:
+        nop;
+
+     label7:
+        nop;
+
+        goto label9;
+
+     label8:
+        nop;
+
+     label9:
+        nop;
+
+        return;
+    }
+}

@@ -1,0 +1,31 @@
+public class Yay extends java.lang.Object
+{
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] l0;
+        int $i0, $i1, i, $i2, $i3, b, $i4, $i5, c;
+
+        l0 := @parameter0: java.lang.String[];
+
+        $i0 = 2 * 3;
+
+        $i1 = 1 + $i0;
+
+        i = $i1;
+
+        $i2 = i * 4;
+
+        $i3 = $i2 + 5;
+
+        b = $i3;
+
+        $i4 = 7 * 4;
+
+        $i5 = $i4 + b;
+
+        c = $i5;
+
+        return;
+    }
+}

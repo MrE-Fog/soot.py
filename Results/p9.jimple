@@ -1,0 +1,147 @@
+public class Yay extends java.lang.Object
+{
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] l0;
+        int a, b, c, d, $i0, $i1, $i2;
+
+        l0 := @parameter0: java.lang.String[];
+
+        a = 0;
+
+        b = 3;
+
+        c = 6;
+
+        d = 7;
+
+        if a < 4 goto label01;
+
+        goto label02;
+
+     label01:
+        nop;
+
+        a = 0;
+
+        goto label18;
+
+     label02:
+        nop;
+
+        if b > 6 goto label03;
+
+        goto label07;
+
+     label03:
+        nop;
+
+        b = 5;
+
+     label04:
+        nop;
+
+        if b < 20 goto label05;
+
+        goto label06;
+
+     label05:
+        nop;
+
+        $i0 = b + 1;
+
+        b = $i0;
+
+        goto label04;
+
+     label06:
+        nop;
+
+        goto label18;
+
+     label07:
+        nop;
+
+        if c > 8 goto label08;
+
+        goto label12;
+
+     label08:
+        nop;
+
+        c = 2;
+
+     label09:
+        nop;
+
+        if c < 20 goto label10;
+
+        goto label11;
+
+     label10:
+        nop;
+
+        $i1 = c + 1;
+
+        c = $i1;
+
+        goto label09;
+
+     label11:
+        nop;
+
+        goto label18;
+
+     label12:
+        nop;
+
+        if d > 8 goto label13;
+
+        goto label17;
+
+     label13:
+        nop;
+
+        d = 0;
+
+     label14:
+        nop;
+
+        if d < 20 goto label15;
+
+        goto label16;
+
+     label15:
+        nop;
+
+        $i2 = d + 1;
+
+        d = $i2;
+
+        goto label14;
+
+     label16:
+        nop;
+
+        goto label18;
+
+     label17:
+        nop;
+
+        a = 1;
+
+        b = 1;
+
+        c = 1;
+
+        d = 1;
+
+        goto label18;
+
+     label18:
+        nop;
+
+        return;
+    }
+}
